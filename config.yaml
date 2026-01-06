@@ -1,2 +1,3 @@
 path:"my_model.joblib"
 features: ["spread1", "spread2"]
+
