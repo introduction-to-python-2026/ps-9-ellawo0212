@@ -21,3 +21,6 @@ from sklearn.metrics import accuracy_score
 Y_pred = KN_model.predict(x_test)
 accuracy= accuracy_score(y_test, Y_pred)
 print("accuracy:",accuracy)
+import joblib
+
+joblib.dump(KN_model, 'my_model.joblib')
